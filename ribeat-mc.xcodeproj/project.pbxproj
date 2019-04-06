@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CA977BACE2641EFCD1391E7 /* Pods_ribeat_mcTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006A9F398946846CE6860C14 /* Pods_ribeat_mcTests.framework */; };
 		8A7FF4792258AB3100899B51 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7FF4782258AB3100899B51 /* Label.swift */; };
 		8AC453A82258939D00CF2676 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC453A72258939D00CF2676 /* AppDelegate.swift */; };
 		8AC453AA2258939D00CF2676 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC453A92258939D00CF2676 /* ViewController.swift */; };
@@ -14,6 +15,7 @@
 		8AC453AF2258939E00CF2676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AC453AE2258939E00CF2676 /* Assets.xcassets */; };
 		8AC453B22258939E00CF2676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC453B02258939E00CF2676 /* LaunchScreen.storyboard */; };
 		8AC453BD2258939E00CF2676 /* ribeat_mcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC453BC2258939E00CF2676 /* ribeat_mcTests.swift */; };
+		BDBD9D448A7E48F84B3C5E68 /* Pods_ribeat_mc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1BF5A9CB36D1B1BC65A01D /* Pods_ribeat_mc.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		006A9F398946846CE6860C14 /* Pods_ribeat_mcTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ribeat_mcTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD3C677633070DABF313181 /* Pods-ribeat-mc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ribeat-mc.release.xcconfig"; path = "Pods/Target Support Files/Pods-ribeat-mc/Pods-ribeat-mc.release.xcconfig"; sourceTree = "<group>"; };
+		84D515EA7EC4B928F09F1CD4 /* Pods-ribeat-mcTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ribeat-mcTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ribeat-mcTests/Pods-ribeat-mcTests.debug.xcconfig"; sourceTree = "<group>"; };
+		872FFA9C47767845B7577B37 /* Pods-ribeat-mc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ribeat-mc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ribeat-mc/Pods-ribeat-mc.debug.xcconfig"; sourceTree = "<group>"; };
 		8A7FF4782258AB3100899B51 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 		8AC453A42258939D00CF2676 /* ribeat-mc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ribeat-mc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC453A72258939D00CF2676 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +44,8 @@
 		8AC453B82258939E00CF2676 /* ribeat-mcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ribeat-mcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC453BC2258939E00CF2676 /* ribeat_mcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ribeat_mcTests.swift; sourceTree = "<group>"; };
 		8AC453BE2258939E00CF2676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9133602D8C223778BA7D7944 /* Pods-ribeat-mcTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ribeat-mcTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ribeat-mcTests/Pods-ribeat-mcTests.release.xcconfig"; sourceTree = "<group>"; };
+		FD1BF5A9CB36D1B1BC65A01D /* Pods_ribeat_mc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ribeat_mc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDBD9D448A7E48F84B3C5E68 /* Pods_ribeat_mc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CA977BACE2641EFCD1391E7 /* Pods_ribeat_mcTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +74,8 @@
 				8AC453A62258939D00CF2676 /* ribeat-mc */,
 				8AC453BB2258939E00CF2676 /* ribeat-mcTests */,
 				8AC453A52258939D00CF2676 /* Products */,
+				ED836E3D88F08D03CABF5C52 /* Pods */,
+				D65B09AE04765FFB45D36114 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +111,26 @@
 			path = "ribeat-mcTests";
 			sourceTree = "<group>";
 		};
+		D65B09AE04765FFB45D36114 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD1BF5A9CB36D1B1BC65A01D /* Pods_ribeat_mc.framework */,
+				006A9F398946846CE6860C14 /* Pods_ribeat_mcTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED836E3D88F08D03CABF5C52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				872FFA9C47767845B7577B37 /* Pods-ribeat-mc.debug.xcconfig */,
+				2BD3C677633070DABF313181 /* Pods-ribeat-mc.release.xcconfig */,
+				84D515EA7EC4B928F09F1CD4 /* Pods-ribeat-mcTests.debug.xcconfig */,
+				9133602D8C223778BA7D7944 /* Pods-ribeat-mcTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AC453C12258939E00CF2676 /* Build configuration list for PBXNativeTarget "ribeat-mc" */;
 			buildPhases = (
+				C319D7526ACC52B4ABFEAFC1 /* [CP] Check Pods Manifest.lock */,
 				8AC453A02258939D00CF2676 /* Sources */,
 				8AC453A12258939D00CF2676 /* Frameworks */,
 				8AC453A22258939D00CF2676 /* Resources */,
+				E6EB857D7736F86DD2CB82F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AC453C42258939E00CF2676 /* Build configuration list for PBXNativeTarget "ribeat-mcTests" */;
 			buildPhases = (
+				2210749256F61E8FF702CBC9 /* [CP] Check Pods Manifest.lock */,
 				8AC453B42258939E00CF2676 /* Sources */,
 				8AC453B52258939E00CF2676 /* Frameworks */,
 				8AC453B62258939E00CF2676 /* Resources */,
+				D2A3D69FDA3C71C5C745C56E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -194,6 +230,107 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2210749256F61E8FF702CBC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ribeat-mcTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C319D7526ACC52B4ABFEAFC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ribeat-mc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2A3D69FDA3C71C5C745C56E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ribeat-mcTests/Pods-ribeat-mcTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ribeat-mcTests/Pods-ribeat-mcTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6EB857D7736F86DD2CB82F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ribeat-mc/Pods-ribeat-mc-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSocket/SwiftSocket.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSocket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ribeat-mc/Pods-ribeat-mc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8AC453A02258939D00CF2676 /* Sources */ = {
@@ -362,6 +499,7 @@
 		};
 		8AC453C22258939E00CF2676 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 872FFA9C47767845B7577B37 /* Pods-ribeat-mc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -381,6 +519,7 @@
 		};
 		8AC453C32258939E00CF2676 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BD3C677633070DABF313181 /* Pods-ribeat-mc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -400,6 +539,7 @@
 		};
 		8AC453C52258939E00CF2676 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84D515EA7EC4B928F09F1CD4 /* Pods-ribeat-mcTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -421,6 +561,7 @@
 		};
 		8AC453C62258939E00CF2676 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9133602D8C223778BA7D7944 /* Pods-ribeat-mcTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
