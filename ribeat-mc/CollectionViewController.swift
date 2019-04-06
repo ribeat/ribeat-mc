@@ -10,6 +10,7 @@ import UIKit
 import Alamofire
 
 class CollectionViewController: UICollectionViewController {
+    let data: [MemeModel] = [MemeModel(table: UITableView(frame: CGRect(x: 10, y: 10, width: 100, height: 100)), button: UIButton(frame: CGRect(x: 10, y: 200, width: 200, height: 50)))]
     
     func addOrder() {
         for subview in view.subviews {
@@ -57,23 +58,26 @@ class CollectionViewController: UICollectionViewController {
             }
         }
         
+        collectionView.dataSource = self
+        collectionView.delegate = self
+        
+//        collectionView.register(UINib.init(nibName: "MemeCell", bundle: nil), forCellWithReuseIdentifier: "MemeCell")
+        
         
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    override func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return 1
-    }
     
     override func collectionView(_ collectionView: UICollectionView,
                                  numberOfItemsInSection section: Int) -> Int {
-        return 1
+        return data.count
     }
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "test", for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MemeCell", for: indexPath) as! CollectionViewCell
         cell.backgroundColor = UIColor(red: 1, green: 0, blue: 0, alpha: 1)
+        cell.configure(with: data[indexPath.row])
 //        cell.addSubview(myLabel)
         // Configure the cell
         return cell
