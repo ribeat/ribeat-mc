@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A7FF4792258AB3100899B51 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7FF4782258AB3100899B51 /* Label.swift */; };
 		8AC453A82258939D00CF2676 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC453A72258939D00CF2676 /* AppDelegate.swift */; };
 		8AC453AA2258939D00CF2676 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC453A92258939D00CF2676 /* ViewController.swift */; };
 		8AC453AD2258939D00CF2676 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC453AB2258939D00CF2676 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A7FF4782258AB3100899B51 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 		8AC453A42258939D00CF2676 /* ribeat-mc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ribeat-mc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC453A72258939D00CF2676 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AC453A92258939D00CF2676 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				8AC453AE2258939E00CF2676 /* Assets.xcassets */,
 				8AC453B02258939E00CF2676 /* LaunchScreen.storyboard */,
 				8AC453B32258939E00CF2676 /* Info.plist */,
+				8A7FF4782258AB3100899B51 /* Label.swift */,
 			);
 			path = "ribeat-mc";
 			sourceTree = "<group>";
@@ -154,7 +157,7 @@
 				};
 			};
 			buildConfigurationList = 8AC4539F2258939C00CF2676 /* Build configuration list for PBXProject "ribeat-mc" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -199,6 +202,7 @@
 			files = (
 				8AC453AA2258939D00CF2676 /* ViewController.swift in Sources */,
 				8AC453A82258939D00CF2676 /* AppDelegate.swift in Sources */,
+				8A7FF4792258AB3100899B51 /* Label.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +367,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YZS2T2FJ58;
 				INFOPLIST_FILE = "ribeat-mc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -381,6 +386,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YZS2T2FJ58;
 				INFOPLIST_FILE = "ribeat-mc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
