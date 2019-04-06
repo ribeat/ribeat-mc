@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		3CA977BACE2641EFCD1391E7 /* Pods_ribeat_mcTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006A9F398946846CE6860C14 /* Pods_ribeat_mcTests.framework */; };
+		8A78575822594DC80014B7D3 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A78575722594DC80014B7D3 /* CollectionViewCell.swift */; };
 		8A7FF4792258AB3100899B51 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7FF4782258AB3100899B51 /* Label.swift */; };
 		8AC453A82258939D00CF2676 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC453A72258939D00CF2676 /* AppDelegate.swift */; };
-		8AC453AA2258939D00CF2676 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC453A92258939D00CF2676 /* ViewController.swift */; };
 		8AC453AD2258939D00CF2676 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC453AB2258939D00CF2676 /* Main.storyboard */; };
 		8AC453AF2258939E00CF2676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AC453AE2258939E00CF2676 /* Assets.xcassets */; };
 		8AC453B22258939E00CF2676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC453B02258939E00CF2676 /* LaunchScreen.storyboard */; };
 		8AC453BD2258939E00CF2676 /* ribeat_mcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC453BC2258939E00CF2676 /* ribeat_mcTests.swift */; };
+		8ADA8ACB22591FED006E6517 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA8ACA22591FED006E6517 /* TableViewCell.swift */; };
+		8ADA8ACD22593B2B006E6517 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA8ACC22593B2B006E6517 /* CollectionViewController.swift */; };
 		BDBD9D448A7E48F84B3C5E68 /* Pods_ribeat_mc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1BF5A9CB36D1B1BC65A01D /* Pods_ribeat_mc.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,10 +35,10 @@
 		2BD3C677633070DABF313181 /* Pods-ribeat-mc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ribeat-mc.release.xcconfig"; path = "Pods/Target Support Files/Pods-ribeat-mc/Pods-ribeat-mc.release.xcconfig"; sourceTree = "<group>"; };
 		84D515EA7EC4B928F09F1CD4 /* Pods-ribeat-mcTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ribeat-mcTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ribeat-mcTests/Pods-ribeat-mcTests.debug.xcconfig"; sourceTree = "<group>"; };
 		872FFA9C47767845B7577B37 /* Pods-ribeat-mc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ribeat-mc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ribeat-mc/Pods-ribeat-mc.debug.xcconfig"; sourceTree = "<group>"; };
+		8A78575722594DC80014B7D3 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		8A7FF4782258AB3100899B51 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 		8AC453A42258939D00CF2676 /* ribeat-mc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ribeat-mc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC453A72258939D00CF2676 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8AC453A92258939D00CF2676 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8AC453AC2258939D00CF2676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AC453AE2258939E00CF2676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AC453B12258939E00CF2676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -44,6 +46,8 @@
 		8AC453B82258939E00CF2676 /* ribeat-mcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ribeat-mcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC453BC2258939E00CF2676 /* ribeat_mcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ribeat_mcTests.swift; sourceTree = "<group>"; };
 		8AC453BE2258939E00CF2676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ADA8ACA22591FED006E6517 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		8ADA8ACC22593B2B006E6517 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		9133602D8C223778BA7D7944 /* Pods-ribeat-mcTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ribeat-mcTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ribeat-mcTests/Pods-ribeat-mcTests.release.xcconfig"; sourceTree = "<group>"; };
 		FD1BF5A9CB36D1B1BC65A01D /* Pods_ribeat_mc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ribeat_mc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -92,7 +96,9 @@
 			isa = PBXGroup;
 			children = (
 				8AC453A72258939D00CF2676 /* AppDelegate.swift */,
-				8AC453A92258939D00CF2676 /* ViewController.swift */,
+				8ADA8ACC22593B2B006E6517 /* CollectionViewController.swift */,
+				8A78575722594DC80014B7D3 /* CollectionViewCell.swift */,
+				8ADA8ACA22591FED006E6517 /* TableViewCell.swift */,
 				8AC453AB2258939D00CF2676 /* Main.storyboard */,
 				8AC453AE2258939E00CF2676 /* Assets.xcassets */,
 				8AC453B02258939E00CF2676 /* LaunchScreen.storyboard */,
@@ -337,7 +343,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AC453AA2258939D00CF2676 /* ViewController.swift in Sources */,
+				8ADA8ACD22593B2B006E6517 /* CollectionViewController.swift in Sources */,
+				8ADA8ACB22591FED006E6517 /* TableViewCell.swift in Sources */,
+				8A78575822594DC80014B7D3 /* CollectionViewCell.swift in Sources */,
 				8AC453A82258939D00CF2676 /* AppDelegate.swift in Sources */,
 				8A7FF4792258AB3100899B51 /* Label.swift in Sources */,
 			);
