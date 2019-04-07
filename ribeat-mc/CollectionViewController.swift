@@ -15,6 +15,7 @@ class CollectionViewController: UICollectionViewController {
 //    MemeModel(table: UITableView(frame: CGRect(x: 10, y: 10, width: 100, height: 100)), button: UIButton(frame: CGRect(x: 10, y: 200, width: 200, height: 50))),
 //    MemeModel(table: UITableView(frame: CGRect(x: 10, y: 10, width: 100, height: 100)), button: UIButton(frame: CGRect(x: 10, y: 200, width: 200, height: 50)))]
     var data: [MemeModel] = [MemeModel]()
+    var orders: [OrderModel] = []
     
     func addOrder() {
         for subview in view.subviews {
@@ -48,51 +49,25 @@ class CollectionViewController: UICollectionViewController {
         arrayOfOrders.append(myLabel)
         addOrder()
         
-        Alamofire.request("http://192.168.86.188:8080/api/v1/orders?orderReady=0").responseJSON { response in
-//            print("Request: \(String(describing: response.request))")   // original url request
-//            print("Response: \(String(describing: response.response))") // http url response
-//            print("Result: \(response.result)")                         // response serialization result
+        Alamofire.request("http://192.168.86.188:8080/api/v1/orders?orderReady=0").responseString { response in
             
-            
-//            if let jsonResult = response.result.value {
-////                let bitcoinObj: Dictionary = bitcoinPrice as! Dictionary<String, Any>
-//                print(jsonResult)
-//
-////                let bpiObj: Dictionary = bitcoinObj["bpi"] as! Dictionary<String, Any>
-////                let usdObj: Dictionary = bpiObj["USD"] as! Dictionary<String, Any>
-////                let rate: String = "\(usdObj["rate_float"] ?? "")"
-//
-////                print(rate)
-//
-//
-//            }
-            if let json = response.result.value {
-                guard let jsonArray = json as? [[String: Any]] else {
-                    return
+            //print ("\(response.result.value)")
+            if let jsonData = response.result.value?.data(using: String.Encoding.utf8) {
+                do {
+                    self.orders = try JSONDecoder().decode([OrderModel].self, from: jsonData)
+                } catch {
+                    
                 }
-              //  print(jsonArray.count)
-                
-                for i in 0 ..< jsonArray.count{
+
+                for order in self.orders {
                     self.data.append(MemeModel(table: UITableView(frame: CGRect(x: 10, y: 10, width: 100, height: 100)), button: UIButton(frame: CGRect(x: 10, y: 200, width: 200, height: 50))))
-                    print(jsonArray[i]["table"])
                 }
                 self.collectionView.reloadData()
             }
-            
-//
-//            if let data = response.data, let utf8Text = String(data: data, encoding: .utf8) {
-////                print("Data: \(utf8Text)") // original server data as UTF8 string
-//                let myText = utf8Text
-//                print(myText[0...])
-//            }
         }
         
         collectionView.dataSource = self
         collectionView.delegate = self
-        
-//        collectionView.register(UINib.init(nibName: "MemeCell", bundle: nil), forCellWithReuseIdentifier: "MemeCell")
-        
-        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -116,7 +91,7 @@ class CollectionViewController: UICollectionViewController {
         cell.buttonOutlet.setTitle("Order ready", for: .normal)
         cell.buttonOutlet.addTarget(self, action: #selector(buttonAction), for: .touchUpInside)
 //        cell.buttonOutlet.tag = self.indexRow
-        cell.configure(with: data[indexPath.row])
+        cell.configure(with: data[indexPath.row], forOrder: self.orders[indexPath.row])
         
 //        cell.addSubview(myLabel)
         // Configure the cell

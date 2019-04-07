@@ -16,6 +16,8 @@
 		8AC453AF2258939E00CF2676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AC453AE2258939E00CF2676 /* Assets.xcassets */; };
 		8AC453B22258939E00CF2676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC453B02258939E00CF2676 /* LaunchScreen.storyboard */; };
 		8AC453BD2258939E00CF2676 /* ribeat_mcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC453BC2258939E00CF2676 /* ribeat_mcTests.swift */; };
+		8AD284542259E02C00AE2E1A /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD284532259E02C00AE2E1A /* OrderModel.swift */; };
+		8AD284582259EB1700AE2E1A /* OrderItemsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD284572259EB1700AE2E1A /* OrderItemsModel.swift */; };
 		8ADA8ACD22593B2B006E6517 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA8ACC22593B2B006E6517 /* CollectionViewController.swift */; };
 		BDBD9D448A7E48F84B3C5E68 /* Pods_ribeat_mc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1BF5A9CB36D1B1BC65A01D /* Pods_ribeat_mc.framework */; };
 /* End PBXBuildFile section */
@@ -47,6 +49,8 @@
 		8AC453B82258939E00CF2676 /* ribeat-mcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ribeat-mcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC453BC2258939E00CF2676 /* ribeat_mcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ribeat_mcTests.swift; sourceTree = "<group>"; };
 		8AC453BE2258939E00CF2676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AD284532259E02C00AE2E1A /* OrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		8AD284572259EB1700AE2E1A /* OrderItemsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItemsModel.swift; sourceTree = "<group>"; };
 		8ADA8ACC22593B2B006E6517 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		9133602D8C223778BA7D7944 /* Pods-ribeat-mcTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ribeat-mcTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ribeat-mcTests/Pods-ribeat-mcTests.release.xcconfig"; sourceTree = "<group>"; };
 		FD1BF5A9CB36D1B1BC65A01D /* Pods_ribeat_mc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ribeat_mc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +108,8 @@
 				8AC453B02258939E00CF2676 /* LaunchScreen.storyboard */,
 				8AC453B32258939E00CF2676 /* Info.plist */,
 				8A7FF4782258AB3100899B51 /* Label.swift */,
+				8AD284532259E02C00AE2E1A /* OrderModel.swift */,
+				8AD284572259EB1700AE2E1A /* OrderItemsModel.swift */,
 			);
 			path = "ribeat-mc";
 			sourceTree = "<group>";
@@ -343,10 +349,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AD284582259EB1700AE2E1A /* OrderItemsModel.swift in Sources */,
 				8ADA8ACD22593B2B006E6517 /* CollectionViewController.swift in Sources */,
 				8A840D2422595D95001A00FD /* TableViewController.swift in Sources */,
 				8A78575822594DC80014B7D3 /* CollectionViewCell.swift in Sources */,
 				8AC453A82258939D00CF2676 /* AppDelegate.swift in Sources */,
+				8AD284542259E02C00AE2E1A /* OrderModel.swift in Sources */,
 				8A7FF4792258AB3100899B51 /* Label.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
